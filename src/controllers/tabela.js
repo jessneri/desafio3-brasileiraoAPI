@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-syntax */
 /* Ordenação e calculos pra tabela de classificação */
-let tabela = [];
+const tabela = [];
 
 const ordemAlfabetica = () => {
 	tabela.sort((a, b) => a.nome.localeCompare(b.nome));
