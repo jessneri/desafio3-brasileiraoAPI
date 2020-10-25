@@ -1,3 +1,5 @@
+/* Obter jogos do banco de dados */
+
 const database = require('../utils/database');
 
 const obterJogosDaRodada = async (rodada = null) => {
@@ -43,4 +45,10 @@ const editarPlacar = async (jogo) => {
 	const result = await database.query(query);
 	return result.rows.shift();
 };
-module.exports = { obterJogosDaRodada, obterJogos, obterJogoId, editarPlacar };
+
+module.exports = {
+	obterJogosDaRodada,
+	obterJogos,
+	obterJogoId,
+	editarPlacar,
+};
