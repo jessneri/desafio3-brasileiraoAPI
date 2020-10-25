@@ -55,7 +55,6 @@ const calcularTabela = (nome, pontos, golsFeitos, golsSofridos) => {
 };
 
 const criarTabela = (jogos) => {
-	tabela = [];
 	for (const jogo of jogos) {
 		if (jogo.gols_casa === jogo.gols_visitante) {
 			calcularTabela(
