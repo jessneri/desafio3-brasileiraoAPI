@@ -1,0 +1,37 @@
+{
+  "name": "backend_doc_padrao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "import-fresh": "^3.2.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.4.0",
+    "parent-module": "^1.0.1",
+    "path-is-absolute": "^1.0.1",
+    "path-key": "^3.1.1",
+    "pg": "^8.4.1",
+    "prelude-ls": "^1.2.1",
+    "punycode": "^2.1.1",
+    "resolve-from": "^4.0.0",
+    "shebang-command": "^2.0.0",
+    "shebang-regex": "^3.0.0",
+    "slice-ansi": "^2.1.0",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
